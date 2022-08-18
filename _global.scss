@@ -1,0 +1,43 @@
+:root {
+
+    //**** Color system****//
+    --primary: #0A2C4F;
+    --secondary: #8798AD;
+    --primary-two: #0064d7;
+    --bg-white: #fff;
+    --danger: #FD5959;
+    --warning: #FFC107;
+    --info: #5171F0;
+    --grey1: #F5F6F7;
+    --orange: #EA665F;
+    --blue-light: #F0F8FF;
+    --blue-medium: #0918F7;
+    --tooltipbg: #6488EE;
+    --grey-light: #959EA51A;
+    --purewhite: #fff;
+    --chip-completed-text: #0DC98A;
+    --chip-cancelled-text: #E5252A;
+    --chip-processing-text: #EAAE00;
+    --chip-processing: #fcf3d8;
+    --chip-completed: #caf8e9;
+    --chip-cancelled: #ffebec;
+
+    //**** shadows****//
+
+    --cardShadow: 0px 24px 30px --grey-light;
+    --boxShadow: 0px 24px 30px --grey-light;
+    --lightBoxShadow: rgb(149 158 164 / 10%) 5px 12px 20px;
+
+
+
+    //**** border_radius****//
+    --cardBorderRadius: 18px;
+    --buttonborderRadius: 18px;
+    --panelborderRadius: 18px;
+
+
+    //****gradients****//
+    --tabCardsGradient: transparent linear-gradient(295deg, var(--tooltipbg) 0%, var(--blue-medium) 100%) 0% 0% no-repeat padding-box;
+    --submitButtonGradient: transparent linear-gradient(295deg, var(--tooltipbg) 0%, var(--blue-medium) 100%) 0% 0% no-repeat padding-box;
+
+}

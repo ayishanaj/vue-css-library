@@ -1,0 +1,24 @@
+
+@import 'global';
+
+
+//chip
+.v-chip{
+    border-radius: var(--vbtnBorderRadius)!important;
+    text-align: center;
+    width: auto;
+  }
+  .cancelled{
+    color:var(--chip-cancelled-text)!important;
+    background-color: var(--chip-cancelled)!important;
+  }
+  
+  .completed{
+    color: var(--chip-completed-text)!important;
+    background-color: var(--chip-completed)!important;
+  }
+  
+  .processing{
+    color: var(--chip-processing-text)!important;
+    background-color: var(--chip-processing)!important;
+  }
