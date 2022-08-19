@@ -1,50 +1,27 @@
+
 <template>
-  <button type="button" :class="classes" :style="style">{{ label }}</button>
+  <v-row justify="start">
+    <v-btn v-if="className === 'nn-danger'"  :class="className" color="error">{{label}}</v-btn>
+    <v-btn v-if="className === 'nn-round'" fab large class="text-h5 round white--text" elevation="0" :class="className" color="indigo">{{label}}</v-btn>
+    <v-btn v-if="className === 'nn-history'" :class="className"   class="rounded-xl" small outlined>{{label}}</v-btn>
+    <v-btn v-if="className === 'nn-ecard'" :class="className"  elevation="0" small text >E-Card</v-btn>
+    <v-btn v-if="className === 'nn-reporting'" height="50" width="250" :class="className"  class="rounded-xl min-button mx-0 pl-1" outlined></v-btn>
+    <v-btn v-if="className === 'nn-submit'" :class="className" class="white--text" elevation="0" small text >{{label}}</v-btn>
+     <v-btn v-if="className === 'nn-yesbutton'" :class="className" class="white--text" depressed >{{label}}</v-btn >
+    <v-btn  v-if="className === 'nn-nobutton'" :class="className" text >{{label}}</v-btn >
+
+  </v-row>
+
 </template>
 
 <script>
-import './button.css';
-
 export default {
-  name: 'my-button',
-
-  props: {
-    label: {
-      type: String,
-      required: true,
-    },
-    primary: {
-      type: Boolean,
-      default: false,
-    },
-    size: {
-      type: String,
-      default: 'medium',
-      validator: function (value) {
-        return ['small', 'medium', 'large'].indexOf(value) !== -1;
-      },
-    },
-    backgroundColor: {
-      type: String,
-    },
-  },
-
-  computed: {
-    classes() {
-      return {
-        'storybook-button': true,
-        'storybook-button--primary': this.primary,
-        'storybook-button--secondary': !this.primary,
-        [`storybook-button--${this.size}`]: true,
-      };
-    },
-    style() {
-      return {
-        backgroundColor: this.backgroundColor,
-      };
-    },
-  },
-
-
-};
+  name: "Button",
+  props: ["className","label"]
+}
 </script>
+<style>
+
+
+</style>
+

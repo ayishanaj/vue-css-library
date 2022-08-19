@@ -1,24 +1,97 @@
-
 @import 'global';
 
 
-//chip
-.v-chip{
-    border-radius: var(--vbtnBorderRadius)!important;
+//button
+.v-btn {
+  width: auto;
+  border-radius: var(--vbtnBorderRadius);
+  text-align: center;
+  font-weight: 600;
+}
+
+.nn-danger {
+  background-color: var(--orange) !important;
+  color: var(--purewhite) !important;
+}
+
+.nn-round {
+  border-radius: var(--vbtnRoundBorderRadius) !important;
+  background-color: rgb(92, 126, 239);
+}
+
+.nn-history{
+  color:var(--history-color) !important;
+}
+
+.nn-ecard{
+  font-size:13px !important;
+  color:var(--coverage-text)  !important;
+  font-weight: 400;
+}
+
+.nn-reporting{
+ color:var(--coverage-text);
+ max-width: 100%;
+ border:solid 1px var(--coverage-text);
+}
+
+.nn-submit{
+width: 159px;
+height: 40px;
+background: var(--submitButtonGradients);
+border-radius: var( --vbtnBorderRadius) !important;
+font-size: 16px !important;
+text-transform: unset !important;
+text-align: center;
+padding: 2px;
+}
+.nn-yesbutton {
+  min-width: 105px !important;
+  background-color: var(--green)!important;
+  color: var(--purewhite);
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+  border-radius: var( --vbtnBorderRadius) !important;
+}
+.nn-nobutton{
+    min-width: 105px !important;
+    background-color: var(--grey2);
+    color: var(--purebalck);
+    height: 35px;
     text-align: center;
-    width: auto;
-  }
-  .cancelled{
-    color:var(--chip-cancelled-text)!important;
-    background-color: var(--chip-cancelled)!important;
-  }
-  
-  .completed{
-    color: var(--chip-completed-text)!important;
-    background-color: var(--chip-completed)!important;
-  }
-  
-  .processing{
-    color: var(--chip-processing-text)!important;
-    background-color: var(--chip-processing)!important;
-  }
+    text-transform: unset !important;
+    border-radius: 10px !important;
+}
+
+//chip
+.v-chip {
+  border-radius: var(--vbtnBorderRadius) !important;
+  text-align: center;
+  width: auto;
+}
+
+.cancelled {
+  color: var(--chip-cancelled-text) !important;
+  background-color: var(--chip-cancelled) !important;
+}
+
+.completed {
+  color: var(--chip-completed-text) !important;
+  background-color: var(--chip-completed) !important;
+}
+
+.processing {
+  color: var(--chip-processing-text) !important;
+  background-color: var(--chip-processing) !important;
+}
+.nn-welcome{
+  font-size: 30px !important;
+  color: #0A2C4F !important;
+}
+.nn-cardheading{
+  font-size: 16px !important;
+  line-height: 1.3 !important;
+  font-weight: 600 !important;
+}
+
