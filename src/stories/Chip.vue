@@ -1,5 +1,5 @@
 <template>
-<v-chip class="rounded-lg"  :class="className">{{label}}</v-chip>
+<v-chip  :class="className">{{label}}</v-chip>
 
 </template>
 

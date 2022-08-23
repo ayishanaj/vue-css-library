@@ -8,6 +8,9 @@
     --bg-white: #fff;
     --danger: #FD5959;
     --warning: #FFC107;
+     --yellow:#F2B626;
+     --green:#00E67A;
+     --purple:#ba68c8;
     --info: #5171F0;
     --grey1: #F5F6F7;
     --grey2:#C6CDD4;
@@ -29,6 +32,12 @@
     --coverage: #C7DFFF;
     --card-heading:#0A2C4F;
     --green:#39DDA6;
+    --reject-orange:#FE5657;
+    --approve-green:#83EAC7;
+    --reassign-blue:#000099;
+    --bio-blue:#5A7DEF;
+    --active-blue-text:#0A8ECB;
+    --active-blue:#CDEDFF;
 
     //**** shadows****//
 
@@ -38,6 +47,10 @@
 
     // font size
     --subHeadingFontSize: 16px;
+    --buttonTextFontSize:17px;
+
+    //font weight
+    --fontWeight300: 300;
 
     //**** border_radius****//
     --cardBorderRadius: 18px;
@@ -50,8 +63,10 @@
     --submitButtonGradients: transparent linear-gradient(86deg, var(--primary-two) 0%, var( --primary-three) 100%) 0% 0% no-repeat padding-box;;
 
 
-    //button
+    //BorderRadius
     --vbtnBorderRadius: 10px !important;
     --vbtnRoundBorderRadius: 50px !important;
+    --vchipBorderRadius: 10px !important;
+
 
 }

@@ -13,13 +13,17 @@ export default {
 
 export const Cancelled = () => ({
   components: { Chip },
-  template: '<Chip  label="Cancelled" className="cancelled" />',
+  template: '<Chip  label="Cancelled" className="nn-cancelled" />',
 });
 export const Completed = () => ({
     components: { Chip },
-    template: '<Chip  label="Completed" className="completed" />',
+    template: '<Chip  label="Completed" className="nn-completed" />',
   });
   export const Processing = () => ({
     components: { Chip },
-    template: '<Chip  label="Processing" className="processing" />',
+    template: '<Chip  label="Processing" className="nn-processing" />',
+  });
+  export const Active = () => ({
+    components: { Chip },
+    template: '<Chip  label="active" className="nn-active" />',
   });

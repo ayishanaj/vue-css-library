@@ -15,9 +15,10 @@ export const Welcome = () => ({
   components: { Heading },
   template: '<Heading  label="Welcome to Word" className="nn-welcome" />',
 });
+export const BlueHeading = () => ({
+  components: { Heading },
+  template: '<Heading  label="Your Bio" className="nn-bio" />',
+});
 
-export const CardHeading = () => ({
-    components: { Heading },
-    template: '<Heading  label="Launch of internal ERP Application - HR Direct" className="nn-cardheading" />',
-  });
+
 

@@ -48,5 +48,48 @@ export const No = () => ({
   components: { Button },
   template: '<Button label="No" className="nn-nobutton" />',
 });
+export const Cancel = () => ({
+  components: { Button },
+  template: '<Button label="Cancel" className="nn-cancelbutton" />',
+});
+export const Edit = () => ({
+  components: { Button },
+  template: '<Button label="Edit" className="nn-editbutton" />',
+});
+export const Approve = () => ({
+  components: { Button },
+  template: '<Button label="Approve" className="nn-approve" />',
+});
+export const Reject = () => ({
+  components: { Button },
+  template: '<Button label="Reject" className="nn-reject" />',
+});
+export const Reassign = () => ({
+  components: { Button },
+  template: '<Button label="Reassign" className="nn-reassign" />',
+});
+export const Asset = () => ({
+  components: { Button },
+  template: '<Button  className="nn-assetButton" />',
+});
+export const AssetCount = () => ({
+  components: { Button },
+  template: '<Button  className="nn-assetCount"  />',
+});
+export const Medium = () => ({
+  components: { Button },
+  template: '<Button label="Medium"  className="nn-medium"  />',
+});
+export const High = () => ({
+  components: { Button },
+  template: '<Button label="High"  className="nn-high"   />',
+});
+export const Low = () => ({
+  components: { Button },
+  template: '<Button label="Low"  className="nn-low"  />',
+});
+
+
+
 
 

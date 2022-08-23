@@ -63,35 +63,165 @@ padding: 2px;
     text-transform: unset !important;
     border-radius: 10px !important;
 }
+.nn-cancelbutton{
+  width:150px !important;
+  border-radius: var( --vbtnBorderRadius) !important;
+}
+.nn-editbutton{
+  color:var(--history-color)!important ;
+}
+.nn-approve{
+  border-radius: var( --vbtnBorderRadius) !important;
+  font-weight: var( --fontWeight300) !important;
+  font-size: var( --buttonTextFontSize) ;
+  min-width:105px !important;
+  color:var( --approve-green) !important;
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+}
+.nn-reject{
+  border-radius: var( --vbtnBorderRadius) !important;
+  font-weight: var( --fontWeight300) !important;
+  font-size: var( --buttonTextFontSize) ;
+  min-width:105px !important;
+  color:var( --reject-orange) !important;
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+}
+.nn-reassign{
+  border-radius: var( --vbtnBorderRadius) !important;
+  font-weight: var( --fontWeight300) !important;
+  font-size: var( --buttonTextFontSize) ;
+  min-width:105px !important;
+  color:var(  --reassign-blue) !important;
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+}
+
+//Text-Field
+.nn-search{
+  background: var(--bg-white) 0% 0% no-repeat padding-box;
+  box-shadow: var(--boxShadow) !important;
+  border: 0.5px solid #EFF1F3;
+  border-radius: 18px;
+  opacity: 1;
+}
 
 //chip
 .v-chip {
-  border-radius: var(--vbtnBorderRadius) !important;
+  border-radius: var(--vchipBorderRadius) !important;
   text-align: center;
   width: auto;
 }
 
-.cancelled {
+.nn-cancelled {
   color: var(--chip-cancelled-text) !important;
   background-color: var(--chip-cancelled) !important;
 }
 
-.completed {
+.nn-completed {
   color: var(--chip-completed-text) !important;
   background-color: var(--chip-completed) !important;
 }
 
-.processing {
+.nn-processing {
   color: var(--chip-processing-text) !important;
   background-color: var(--chip-processing) !important;
 }
+.nn-active{
+  height:20px !important;
+  color:var(--active-blue-text) !important;
+  background-color: var(--active-blue) !important;
+  border-color: var(--active-blue) !important;
+  margin: 8px !important;
+}
+.nn-assetButton{
+  width: 100%;
+  height: 150px !important;
+  border-radius: var(--cardBorderRadius) !important;
+  text-transform: unset !important;
+}
+.nn-assetCount{
+  background-color: #eeeeee !important;
+  border-color: #eeeeee !important;
+  color: var(--purple) !important;
+  caret-color: var(--purple) !important;
+  height:40px !important;
+}
+.nn-medium{
+  pointer-events: none !important;
+  min-width:80px !important;
+  height: 20px !important;
+  border-radius:15px !important;
+  color:var(--yellow) !important;
+  background-color:var(--chip-processing) !important;
+  padding: 16px !important;
+  font-size: 0.625rem !important;
+}
+.nn-low{
+  pointer-events: none !important;
+  min-width:80px !important;
+  height: 20px !important;
+  border-radius:15px !important;
+  color:var(--green) !important;
+  background-color:var(--chip-cancelled) !important;
+  padding: 16px !important;
+  font-size: 0.625rem !important;
+  
+}
+.nn-high{
+  pointer-events: none !important;
+  min-width:80px !important;
+  height: 20px !important;
+  border-radius:15px !important;
+  color:var(--chip-cancelled-text) !important;
+  background-color: var(--chip-cancelled) !important;
+  padding: 16px !important;
+  font-size: 0.625rem !important;
+  
+}
+
+//cards
+.nn-infoCard{
+  box-shadow: var (--cardShadow);
+  min-height:240px !important;
+  border-radius: var(--cardBorderRadius) !important;
+  padding: 24px !important;
+}
+.nn-supportCard{
+  min-height: 850px !important;
+  padding: 20px !important;
+  border-radius: 24px !important;
+}
+.nn-assetCard{
+  min-height: 900px !important;
+  border-radius: 24px !important;
+  padding: 16px !important;
+}
+.nn-totalCard{
+  border-radius: var(--cardBorderRadius) !important;
+  box-shadow: var (--cardShadow);
+  padding: 24px !important;
+  min-height: 180px !important;
+}
+.nn-teamCentral{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+  box-shadow: var (--cardShadow);
+  overflow:hidden;
+  min-height: 450px;
+}
+
+//heading
 .nn-welcome{
   font-size: 30px !important;
-  color: #0A2C4F !important;
+  color: var(--primary) !important;
 }
-.nn-cardheading{
-  font-size: 16px !important;
-  line-height: 1.3 !important;
-  font-weight: 600 !important;
+.nn-bio{
+  color:  var(--bio-blue);
+  font-weight: 700 !important;
 }
 

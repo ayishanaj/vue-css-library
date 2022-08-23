@@ -1,6 +1,6 @@
 {
   "name": "@nathangroup/nathan-vue-css-library",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "private": false,
   "main": "variable.scss",
   "scripts": {
@@ -65,7 +65,7 @@
     "type": "git",
     "url": "git+https://github.com/Nathan-Nathan-HR/nathan-vue-css-library.git"
   },
-  "author": "",
+  "author": "Ayisha Najla",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Nathan-Nathan-HR/nathan-vue-css-library/issues"
