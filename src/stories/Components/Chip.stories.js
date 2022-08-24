@@ -31,3 +31,7 @@ export const Completed = () => ({
     components: { Chip },
     template: '<Chip label="Common"  className="nn-common" />',
   });
+  export const Task = () => ({
+    components: { Chip },
+    template: '<Chip label="All Tasks"  className="nn-task" />',
+  });

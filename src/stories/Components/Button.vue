@@ -26,6 +26,8 @@
     <v-col cols="12" sm="6" md="6" v-if="className === 'nn-login'">
     <v-btn  :class="className" >{{label}}</v-btn>
     </v-col>
+    <v-btn v-if="className === 'nn-clock'" :class="className">{{label}}</v-btn>
+    <v-btn v-if="className === 'nn-reward'" :class="className">{{label}}</v-btn>
   </v-row>
 
 </template>

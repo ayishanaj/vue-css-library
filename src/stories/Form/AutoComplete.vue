@@ -15,7 +15,8 @@ export default {
       data() {
     return {
     items: ['foo', 'bar', 'fizz', 'buzz'],
-      value: null,    }
+      value: null,    
+      }
   },
 }
 </script>

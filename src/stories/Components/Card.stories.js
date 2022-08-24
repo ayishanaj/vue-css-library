@@ -36,4 +36,22 @@ export const Login = () => ({
   components: { Card },
   template: '<Card   className="nn-loginCard"  />',
 });
+export const UpcomingEvent = () => ({
+  components: { Card },
+  template: '<Card   className="nn-eventsCard"  />',
+});
+export const News = () => ({
+  components: { Card },
+  template: '<Card   className="nn-newsCard"  />',
+});
+export const Swiper = () => ({
+  components: { Card },
+  template: '<Card  className="nn-swiperCard"  />',
+});
+export const SwiperSelected = () => ({
+  components: { Card },
+  template: '<Card className="nn-swiperSelectedCard"  />',
+});
+
+
 

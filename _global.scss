@@ -6,14 +6,19 @@
     --primary-two: #0064d7;
     --primary-three: #3646FF;
     --bg-white: #fff;
+    --bg-white-one:#EFF1F3;
     --danger: #FD5959;
+    --bg-red:#FF8181;
     --warning: #FFC107;
      --yellow:#F2B626;
      --green:#00E67A;
+     --lightgreen:#00C983;
      --purple:#ba68c8;
+     --purple-one:#9c27b0;
     --info: #5171F0;
     --grey1: #F5F6F7;
     --grey2:#C6CDD4;
+    --grey3:#E7ECF3;
     --orange: #EA665F;
     --blue-light: #F0F8FF;
     --blue-medium: #0918F7;
@@ -28,16 +33,16 @@
     --chip-completed: #caf8e9;
     --chip-cancelled: #ffebec;
     --history-color: #5C7EEF;
-    --coverage-text: #0064D7;
     --coverage: #C7DFFF;
-    --card-heading:#0A2C4F;
     --green:#39DDA6;
     --reject-orange:#FE5657;
     --approve-green:#83EAC7;
     --reassign-blue:#000099;
     --bio-blue:#5A7DEF;
+    --reward-blue:#3f51b5;
     --active-blue-text:#0A8ECB;
     --active-blue:#CDEDFF;
+    --teal-blue:#24576a;
 
     //**** shadows****//
 
@@ -48,25 +53,34 @@
     // font size
     --subHeadingFontSize: 16px;
     --buttonTextFontSize:17px;
+    --headingFontSize:24px;
+    --textFontSize:14px
 
     //font weight
     --fontWeight300: 300;
+    --fontWeight600:600;
+    --fontWeight100:100;
+    --fontWeight400:400;
+    --fontWeight700:700;
 
     //**** border_radius****//
     --cardBorderRadius: 18px;
     --panelborderRadius: 18px;
-    
-
+    --eventCardborderRadius: 24px;
 
     //****gradients****//
     --tabCardsGradient: transparent linear-gradient(295deg, var(--tooltipbg) 0%, var(--blue-medium) 100%) 0% 0% no-repeat padding-box;
-    --submitButtonGradients: transparent linear-gradient(86deg, var(--primary-two) 0%, var( --primary-three) 100%) 0% 0% no-repeat padding-box;;
+    --submitButtonGradients: transparent linear-gradient(86deg, var(--primary-two) 0%, var( --primary-three) 100%) 0% 0% no-repeat padding-box;
+
 
 
     //BorderRadius
     --vbtnBorderRadius: 10px !important;
     --vbtnRoundBorderRadius: 50px !important;
     --vchipBorderRadius: 10px !important;
+   
 
+
+    
 
 }

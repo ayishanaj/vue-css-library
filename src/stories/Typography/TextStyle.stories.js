@@ -23,6 +23,22 @@ export const LoginSubHeading = () => ({
   components: { TextStyle },
   template: '<TextStyle  label="Your Next Gen Smart HR portal" className="nn-login-subheading" />',
 });
+export const Greeting = () => ({
+  components: { TextStyle },
+  template: '<TextStyle  label="Good Afternoon" className="nn-greet" />',
+});
+export const TotalDays = () => ({
+  components: { TextStyle },
+  template: '<TextStyle  label="Total days taken in 2022" className="nn-totalText" />',
+});
+export const CardHeading = () => ({
+  components: { TextStyle },
+  template: '<TextStyle  label="Monthly Attendance Log" className="nn-cardHeading" />',
+});
+export const ClockInText = () => ({
+  components: { TextStyle },
+  template: '<TextStyle  label="Clock In Time" className="nn-clockIn" />',
+});
 
 
 

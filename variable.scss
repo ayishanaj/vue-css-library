@@ -6,7 +6,7 @@
   width: auto;
   border-radius: var(--vbtnBorderRadius);
   text-align: center;
-  font-weight: 600;
+  font-weight: var(--fontWeight600);
 }
 
 .nn-danger {
@@ -19,95 +19,122 @@
   background-color: rgb(92, 126, 239);
 }
 
-.nn-history{
-  color:var(--history-color) !important;
+.nn-history {
+  color: var(--history-color) !important;
 }
 
-.nn-ecard{
-  font-size:13px !important;
-  color:var(--coverage-text)  !important;
-  font-weight: 400;
+.nn-ecard {
+  font-size: 13px !important;
+  color: var(--primary-two) !important;
+  font-weight: var(--fontWeight400);
 }
 
-.nn-reporting{
- color:var(--coverage-text);
- max-width: 100%;
- border:solid 1px var(--coverage-text);
+.nn-reporting {
+  color: var(--primary-two);
+  max-width: 100%;
+  border: solid 1px var(--primary-two);
 }
 
-.nn-submit{
-width: 159px;
-height: 40px;
-background: var(--submitButtonGradients);
-border-radius: var( --vbtnBorderRadius) !important;
-font-size: 16px !important;
-text-transform: unset !important;
-text-align: center;
-padding: 2px;
+.nn-submit {
+  width: 159px;
+  height: 40px;
+  background: var(--submitButtonGradients);
+  border-radius: var(--vbtnBorderRadius) !important;
+  font-size: 16px !important;
+  text-transform: unset !important;
+  text-align: center;
+  padding: 2px;
 }
+
 .nn-yesbutton {
   min-width: 105px !important;
-  background-color: var(--green)!important;
+  background-color: var(--green) !important;
   color: var(--purewhite);
   height: 35px;
   text-align: center;
   text-transform: unset !important;
-  border-radius: var( --vbtnBorderRadius) !important;
+  border-radius: var(--vbtnBorderRadius) !important;
 }
-.nn-nobutton{
-    min-width: 105px !important;
-    background-color: var(--grey2);
-    color: var(--purebalck);
-    height: 35px;
-    text-align: center;
-    text-transform: unset !important;
-    border-radius: 10px !important;
-}
-.nn-cancelbutton{
-  width:150px !important;
-  border-radius: var( --vbtnBorderRadius) !important;
-}
-.nn-editbutton{
-  color:var(--history-color)!important ;
-}
-.nn-approve{
-  border-radius: var( --vbtnBorderRadius) !important;
-  font-weight: var( --fontWeight300) !important;
-  font-size: var( --buttonTextFontSize) ;
-  min-width:105px !important;
-  color:var( --approve-green) !important;
+
+.nn-nobutton {
+  min-width: 105px !important;
+  background-color: var(--grey2);
+  color: var(--purebalck);
   height: 35px;
   text-align: center;
   text-transform: unset !important;
+  border-radius: 10px !important;
 }
-.nn-reject{
-  border-radius: var( --vbtnBorderRadius) !important;
-  font-weight: var( --fontWeight300) !important;
-  font-size: var( --buttonTextFontSize) ;
-  min-width:105px !important;
-  color:var( --reject-orange) !important;
-  height: 35px;
-  text-align: center;
-  text-transform: unset !important;
+
+.nn-cancelbutton {
+  width: 150px !important;
+  border-radius: var(--vbtnBorderRadius) !important;
 }
-.nn-reassign{
-  border-radius: var( --vbtnBorderRadius) !important;
-  font-weight: var( --fontWeight300) !important;
-  font-size: var( --buttonTextFontSize) ;
-  min-width:105px !important;
-  color:var(  --reassign-blue) !important;
+
+.nn-editbutton {
+  color: var(--history-color) !important;
+}
+
+.nn-approve {
+  border-radius: var(--vbtnBorderRadius) !important;
+  font-weight: var(--fontWeight300) !important;
+  font-size: var(--buttonTextFontSize);
+  min-width: 105px !important;
+  color: var(--approve-green) !important;
   height: 35px;
   text-align: center;
   text-transform: unset !important;
 }
 
+.nn-reject {
+  border-radius: var(--vbtnBorderRadius) !important;
+  font-weight: var(--fontWeight300) !important;
+  font-size: var(--buttonTextFontSize);
+  min-width: 105px !important;
+  color: var(--reject-orange) !important;
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+}
+
+.nn-reassign {
+  border-radius: var(--vbtnBorderRadius) !important;
+  font-weight: var(--fontWeight300) !important;
+  font-size: var(--buttonTextFontSize);
+  min-width: 105px !important;
+  color: var(--reassign-blue) !important;
+  height: 35px;
+  text-align: center;
+  text-transform: unset !important;
+}
+
+.nn-login {
+  min-height: 51px !important;
+  justify-content: space-between !important;
+  background: var(--submitButtonGradients);
+  border-radius: 12px !important;
+  text-transform: unset !important;
+  display: flex;
+  flex: 1 0 auto;
+  min-width: 100% !important;
+  max-width: none;
+  color: var(--bg-white) !important;
+  padding-left: 20px !important;
+}
+
+.nn-clock {
+  background-color: var(--bg-red) !important;
+  border-color: var(--bg-red) !important;
+  border-radius: var(--eventCardborderRadius) !important;
+  color: var(--bg-white) !important;
+}
+
 //Text-Field
-.nn-search{
+.nn-search {
   background: var(--bg-white) 0% 0% no-repeat padding-box;
   box-shadow: var(--boxShadow) !important;
-  border: 0.5px solid #EFF1F3;
-  border-radius: 18px;
-  opacity: 1;
+  border: 0.5px solid var(--bg-white-one);
+  border-radius: var(--eventCardborderRadius) !important;
 }
 
 //chip
@@ -131,97 +158,262 @@ padding: 2px;
   color: var(--chip-processing-text) !important;
   background-color: var(--chip-processing) !important;
 }
-.nn-active{
-  height:20px !important;
-  color:var(--active-blue-text) !important;
+
+.nn-active {
+  height: 20px !important;
+  color: var(--active-blue-text) !important;
   background-color: var(--active-blue) !important;
   border-color: var(--active-blue) !important;
   margin: 8px !important;
 }
-.nn-assetButton{
+
+.nn-assetButton {
   width: 100%;
   height: 150px !important;
   border-radius: var(--cardBorderRadius) !important;
   text-transform: unset !important;
 }
-.nn-assetCount{
+
+.nn-assetCount {
   background-color: #eeeeee !important;
   border-color: #eeeeee !important;
   color: var(--purple) !important;
   caret-color: var(--purple) !important;
-  height:40px !important;
+  height: 40px !important;
 }
-.nn-medium{
+
+.nn-medium {
   pointer-events: none !important;
-  min-width:80px !important;
+  min-width: 80px !important;
   height: 20px !important;
-  border-radius:15px !important;
-  color:var(--yellow) !important;
-  background-color:var(--chip-processing) !important;
+  border-radius: 15px !important;
+  color: var(--yellow) !important;
+  background-color: var(--chip-processing) !important;
   padding: 16px !important;
   font-size: 0.625rem !important;
 }
-.nn-low{
+
+.nn-low {
   pointer-events: none !important;
-  min-width:80px !important;
+  min-width: 80px !important;
   height: 20px !important;
-  border-radius:15px !important;
-  color:var(--green) !important;
-  background-color:var(--chip-cancelled) !important;
-  padding: 16px !important;
-  font-size: 0.625rem !important;
-  
-}
-.nn-high{
-  pointer-events: none !important;
-  min-width:80px !important;
-  height: 20px !important;
-  border-radius:15px !important;
-  color:var(--chip-cancelled-text) !important;
+  border-radius: 15px !important;
+  color: var(--green) !important;
   background-color: var(--chip-cancelled) !important;
   padding: 16px !important;
   font-size: 0.625rem !important;
-  
+
+}
+
+.nn-high {
+  pointer-events: none !important;
+  min-width: 80px !important;
+  height: 20px !important;
+  border-radius: 15px !important;
+  color: var(--chip-cancelled-text) !important;
+  background-color: var(--chip-cancelled) !important;
+  padding: 16px !important;
+  font-size: 0.625rem !important;
+}
+
+.nn-common {
+  height: 20px !important;
+  margin: 8px !important;
+  border-radius: 8px !important;
+  margin: 8px !important;
+}
+
+.nn-task {
+  background-color: var(--purple-one) !important;
+  border-color:var(--purple-one) !important;
+  color: var(--bg-white) !important;
+  caret-color: var(--bg-white) !important;
 }
 
 //cards
-.nn-infoCard{
+.nn-infoCard {
   box-shadow: var (--cardShadow);
-  min-height:240px !important;
+  min-height: 240px !important;
   border-radius: var(--cardBorderRadius) !important;
   padding: 24px !important;
 }
-.nn-supportCard{
+
+.nn-supportCard {
   min-height: 850px !important;
   padding: 20px !important;
-  border-radius: 24px !important;
+  border-radius: var(--eventCardborderRadius) !important;
 }
-.nn-assetCard{
+
+.nn-assetCard {
   min-height: 900px !important;
-  border-radius: 24px !important;
+  border-radius: var(--eventCardborderRadius) !important;
   padding: 16px !important;
 }
-.nn-totalCard{
+
+.nn-totalCard {
   border-radius: var(--cardBorderRadius) !important;
   box-shadow: var (--cardShadow);
   padding: 24px !important;
   min-height: 180px !important;
 }
-.nn-teamCentral{
+
+.nn-teamCentral {
   padding-right: 0px !important;
   padding-left: 0px !important;
   box-shadow: var (--cardShadow);
-  overflow:hidden;
+  overflow: hidden;
   min-height: 450px;
 }
 
+.nn-loginCard {
+  min-height: 670px !important;
+  width: 550px !important;
+  margin-top: 20px !important;
+  margin-bottom: 20px !important;
+  border-radius: var(--cardBorderRadius) !important;
+  box-shadow: var (--cardShadow);
+}
+
+.nn-eventsCard {
+  max-height: 420px !important;
+  min-height: 420px !important;
+  background: var(----grey3) !important;
+  overflow: hidden !important;
+  border-radius: var(--eventCardborderRadius) !important;
+}
+
+.nn-newsCard {
+  max-height: 350px !important;
+  min-height: 350px !important;
+  transition: all .2s ease-in-out !important;
+  background-color: var(--bg-white) !important;
+  color: var (--purebalck) !important;
+  border-radius: var(--eventCardborderRadius) !important;
+  box-shadow: var (--cardShadow);
+}
+
+.nn-reward {
+  height: 28px !important;
+  font-size: .75rem !important;
+  border-radius: var(--eventCardborderRadius) !important;
+  margin-right: 8px !important;
+  margin-left: 8px !important;
+  color: var (--teal-blue) !important;
+  caret-color: var(----teal-blue) !important;
+  border-color: var(--reward-blue) !important;
+}
+
+.nn-swiperCard {
+  margin-right: 20px !important;
+  border-radius: 18px !important;
+  min-height: 80px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  box-shadow: var(--lightBoxShadow)!important;
+  overflow: hidden;
+}
+
+.nn-swiperSelectedCard {
+  margin-right: 20px !important;
+  border-radius: 18px !important;
+  min-height: 80px !important;
+  min-width: 170px !important;
+  max-width: 170px !important;
+  box-shadow: var(--lightBoxShadow)!important;
+  overflow: hidden !important;
+  background:  var(--submitButtonGradients);
+}
+
+//dropdown
+.nn-taskSelect {
+  border-radius: 24px !important;
+  color: var(--teal-blue) !important;
+  caret-color: var(--teal-blue) !important;
+
+  .v-text-field__details {
+    display: none !important;
+  }
+}
+
 //heading
-.nn-welcome{
+.nn-welcome {
   font-size: 30px !important;
   color: var(--primary) !important;
 }
-.nn-bio{
-  color:  var(--bio-blue);
-  font-weight: 700 !important;
+
+.nn-bio {
+  color: var(--bio-blue);
+  font-weight: var(--fontWeight700);
 }
 
+.nn-login-subheading {
+  color: var(--primary-two) !important;
+  text-align: center !important;
+  font-weight: var(--fontWeight400);
+  font-size: 18px !important;
+}
+
+.nn-heading {
+  color: var(--primary) !important;
+  text-align: center !important;
+  font-size: 28px !important;
+  font-weight: var(--fontWeight400);
+}
+
+.nn-greet {
+  font-size: 25px !important;
+  color: var(--primary) !important;
+  font-weight: var(--fontWeight100);
+}
+.nn-totalText{
+  font-size:12px !important;
+  color:var(--lightgreen) !important
+}
+.nn-cardHeading{
+  color: var(--primary) !important;
+  font-size: 16px !important;
+  font-weight: var(--fontWeight600);
+}
+.nn-clockIn{
+  color:var(--primary-two) !important;
+  margin-bottom: 0 !important;
+  font-size: 15px !important;
+  font-weight: var(--fontWeight600);
+}
+
+// ***Form***
+
+//textArea
+.nn-textArea {
+  padding-top: 0 !important;
+}
+
+//textinput
+.nn-textinput {
+  padding-top: 0 !important;
+}
+
+//auto-complete
+.nn-autocomplete {
+  padding-top: 0 !important;
+}
+
+.nn-label {
+  margin-bottom: 0px !important;
+  font-weight: var(--fontWeight600);
+  font-size: var(--textFontSize) !important;
+  color: var(--secondary) !important;
+}
+
+//ListItem
+.nn-userName{
+  color: var(--teal-blue) !important;
+  text-align: center !important;
+  font-size: 24px !important;
+  font-weight: var(--fontWeight700);
+}
+.nn-position{
+  text-align: center !important;
+  color: var(--teal-blue) !important;
+  font-size: var(--textFontSize) !important;
+}

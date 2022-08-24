@@ -92,6 +92,14 @@ export const Login = () => ({
   components: { Button },
   template: '<Button label="Login"  className="nn-login"  />',
 });
+export const ClockOut = () => ({
+  components: { Button },
+  template: '<Button label="CLOCK OUT"  className="nn-clock"  />',
+});
+export const Reward = () => ({
+  components: { Button },
+  template: '<Button label="Cleaning Services"  className="nn-reward"  />',
+});
 
 
 
